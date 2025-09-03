@@ -15,7 +15,7 @@ bool isEnabled = true;
 // literal values kan använda sig av suffix för att avgöra typen på det "hårdkodade" värdet:
 // T.ex: 1.0f är float-värde, medan 1.0 är double-värde.
 
-// Data types (datatyper) - Anger vilken typ av data vi lagrar i t.ex en variabel.
+//Data types(datatyper) -Anger vilken typ av data vi lagrar i t.ex en variabel.
 
 // C# är ett statiskt typat språk:
 // Innan koden kompileras så måste datatypen för varje enskild variabel vara känd.

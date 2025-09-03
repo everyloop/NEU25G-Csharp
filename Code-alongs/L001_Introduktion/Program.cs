@@ -21,7 +21,7 @@ if (true)
 
 
 // Case
-// -UPPERCASE
+// - UPPERCASE
 // - lowercase
 // - camelCase(förstaOrdetBörjarMedLitenBokstavSedanRestenBörjarPåStor)
 // - PascalCase(AllaOrdBörjarPåStorBokstav)
