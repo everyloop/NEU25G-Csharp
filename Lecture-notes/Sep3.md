@@ -117,9 +117,11 @@ int myInt; // Likvärdig med Int32 myInt;  Int32 är namnet på .NET-typen, och 
 **Implicit typad variabel** - Med keyword var så avgör kompilatorn datatyp.
 
 ```cs
-// myVariable blir en double eftersom vi initialiserar med en double literal.
+// Det är underförstått att myVariable är en double eftersom vi initialiserar med värdet 5.2
 var myVariable = 5.2;
-myVariable = 5.3;
+
+// Den är fortfarande statisk typad så följande skulle ge ett kompilatorfel.
+myVariable = false;
 ```
 
 [Läs mer om implicit typade variabler här!](https://www.tutorialsteacher.com/csharp/csharp-var-implicit-typed-local-variable)
