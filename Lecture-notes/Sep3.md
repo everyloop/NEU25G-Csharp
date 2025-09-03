@@ -29,7 +29,7 @@ Reserverade ord som redan används av C#.
 
 ## Case
 
--UPPERCASE
+- UPPERCASE
 - lowercase
 - camelCase(förstaOrdetBörjarMedLitenBokstavSedanRestenBörjarPåStor)
 - PascalCase(AllaOrdBörjarPåStorBokstav)
