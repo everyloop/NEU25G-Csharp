@@ -2,7 +2,8 @@
 
 ### Detta repo innehåller utbildningsmaterial för klassen NEU25G på ITHS Göteborg.
 
-Här kommer du hitta code-along projekt från lektioner, lektionsanteckningar, och övningsuppgifter.
+Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [övningsuppgifter](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/Exercises.md).
+
 
 **Anteckningar:**
 
