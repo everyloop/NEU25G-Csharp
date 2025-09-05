@@ -11,6 +11,8 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, samt [�
 |--------|----------------------------------------------------------------|
 | [Sep 1][Sep1] | Visual Studio, Powershell, Git/Github.                |
 | [Sep 3][Sep3] | Variabler, Datatyper, If-satser, loopar                |
+| [Sep 5][Sep5] | Felsökning, Indexering, Arrayer, Strängar                |
 
 [Sep1]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep1.md
 [Sep3]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep3.md
+[Sep5]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep5.md
