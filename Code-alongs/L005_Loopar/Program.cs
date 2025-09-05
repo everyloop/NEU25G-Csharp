@@ -26,7 +26,6 @@
 
 
 // Exempel som använder WHILE som räknare 1 till 10.
-
 //int i = 1;
 
 //while (i <= 10)
@@ -35,27 +34,36 @@
 //    i++;  // samma som i += 1 eller i = i + 1
 //}
 
+// Exempel med for-loop som räknar 1 till 5
+//Console.WriteLine("Start");
+
+//for (int i = 1; i <= 5; i++)
+//{
+//    Console.WriteLine(i);
+//}
+
+//Console.WriteLine("End");
+
 
 // Exempel med BREAK
-
-//int i = 0;
-//while (true)
+//for (int i = 1; i <= 10; i++)
 //{
-//    i++;  // samma som i -= 1 eller i = i - 1
 //    Console.WriteLine(i);
-
-//    if (i > 5) break; // break avslutar loopen helt
+//    if (i == 5)
+//    {
+//        break;
+//    }
 //}
 
 
 // Exempel med CONTINUE
-
-int i = 0;
-while (i < 10)
+for (int i = 1; i <= 10; i++)
 {
-    i++;  // samma som i -= 1 eller i = i - 1
-    if (i == 5) continue; // continue avsluta pågående iteration (varv) och fortsätta på nästa varv.
+    if (i == 5 || i == 8)
+    {
+        continue;
+    }
     Console.WriteLine(i);
-
 }
+Console.WriteLine("Slut!");
 
