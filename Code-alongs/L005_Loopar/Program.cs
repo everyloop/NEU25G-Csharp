@@ -25,45 +25,46 @@
 //Console.WriteLine("Yes, du gissade rätt!");
 
 
-// Exempel som använder WHILE som räknare 1 till 10.
-//int i = 1;
+Console.WriteLine("\nExempel som använder WHILE som räknare 1 till 5");
 
-//while (i <= 10)
-//{
-//    Console.WriteLine(i);
-//    i++;  // samma som i += 1 eller i = i + 1
-//}
+int j = 1;
 
-// Exempel med for-loop som räknar 1 till 5
-//Console.WriteLine("Start");
-
-//for (int i = 1; i <= 5; i++)
-//{
-//    Console.WriteLine(i);
-//}
-
-//Console.WriteLine("End");
+while (j <= 5)
+{
+    Console.WriteLine(j);
+    j++;  // samma som j += 1 eller j = j + 1
+}
 
 
-// Exempel med BREAK
-//for (int i = 1; i <= 10; i++)
-//{
-//    Console.WriteLine(i);
-//    if (i == 5)
-//    {
-//        break;
-//    }
-//}
+Console.WriteLine("\nExempel med for-loop som räknar 1 till 5");
+
+for (int i = 1; i <= 5; i++)
+{
+    Console.WriteLine(i);
+}
 
 
-// Exempel med CONTINUE
+Console.WriteLine("\nExempel med BREAK");
+
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine(i);
+    if (i == 5)
+    {
+        break; // Avbryter loopen helt, och fortsätter exekvering efter loopen.
+    }
+}
+
+
+Console.WriteLine("\nExempel med CONTINUE");
+
 for (int i = 1; i <= 10; i++)
 {
     if (i == 5 || i == 8)
     {
-        continue;
+        continue; // Avbryter pågående iteration, och fortsätter på nästa "varv" i loopen
     }
     Console.WriteLine(i);
 }
-Console.WriteLine("Slut!");
+
 
