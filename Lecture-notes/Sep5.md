@@ -12,7 +12,7 @@ Denna typ av fel är de enklaste att upptäcka och fixa. Googla felmedelandet, e
 ### Runtime error (Exekveringsfel)
 Koden är "korrekt" så tillvida att programmet kompilerar, men programmet "krashar" under körning, med ett felmeddelande.
 
-Denna typ av fel kastar en "exception". Vilket vi går igenom [9:e September](https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep9.md)
+Denna typ av fel kastar en "exception". Vilket vi går igenom [15:e September](https://github.com/everyloop/NET24-Csharp/blob/master/Lecture-notes/Sep15.md)
 
 ### Logical errors (Logiskt fel)
 Programmet kompilerar och startar, och det krashar inte heller. Men, resultatet av programmet är inte det förväntade.
@@ -48,6 +48,9 @@ Den lokala variabeln (car) är alltid read-only. Det betyder att med en foreach 
 [Läs mer här!](https://www.programiz.com/csharp-programming/foreach-loop)
 
 ## Strängar
+
+**Code-along:**  
+[L007_Strängar](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L007_Strängar/Program.cs)
 
 ### Indexerbara
 Strängar i C# är indexerbara, d.v.s man kan komma åt enskilda tecken (datatyp Char) med hjälp av index, på samma sätt som man kan komma åt enskilda element i en array. Till skillnad från en char[] så är kan man inte skriva till (ändra) den enskilda tecknen i en array genom indexering; de är read-only.
