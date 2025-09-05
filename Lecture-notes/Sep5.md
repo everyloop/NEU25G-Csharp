@@ -20,7 +20,7 @@ Programmet kompilerar och startar, och det krashar inte heller. Men, resultatet 
 ## Arrayer
 
 **Code-along:**  
-[L005_Arrays](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L005_Arrays/Program.cs)
+[L006_Array](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L006_Array/Program.cs)
 
 **Tutorials:**  
 [Array](https://www.tutorialsteacher.com/csharp/array-csharp)  
@@ -48,8 +48,6 @@ Den lokala variabeln (car) är alltid read-only. Det betyder att med en foreach 
 [Läs mer här!](https://www.programiz.com/csharp-programming/foreach-loop)
 
 ## Strängar
-**Code-along:**  
-[L006_Strings](https://github.com/everyloop/NET24-Csharp/blob/master/Code-alongs/L006_Strings/Program.cs)
 
 ### Indexerbara
 Strängar i C# är indexerbara, d.v.s man kan komma åt enskilda tecken (datatyp Char) med hjälp av index, på samma sätt som man kan komma åt enskilda element i en array. Till skillnad från en char[] så är kan man inte skriva till (ändra) den enskilda tecknen i en array genom indexering; de är read-only.
