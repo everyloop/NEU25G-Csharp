@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L006_Array", "Code-alongs\L
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L007_Strängar", "Code-alongs\L007_Strängar\L007_Strängar.csproj", "{0D20B415-C14C-47FC-B29B-4A9D13661828}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L008_Funktioner", "Code-alongs\L008_Funktioner\L008_Funktioner.csproj", "{9E9593B1-3005-4666-AFCB-48BD1F48A461}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0D20B415-C14C-47FC-B29B-4A9D13661828}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D20B415-C14C-47FC-B29B-4A9D13661828}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D20B415-C14C-47FC-B29B-4A9D13661828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E9593B1-3005-4666-AFCB-48BD1F48A461}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E9593B1-3005-4666-AFCB-48BD1F48A461}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E9593B1-3005-4666-AFCB-48BD1F48A461}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E9593B1-3005-4666-AFCB-48BD1F48A461}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
