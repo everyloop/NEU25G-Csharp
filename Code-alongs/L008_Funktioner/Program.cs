@@ -19,9 +19,9 @@ static void FunctionC()
     Console.WriteLine("This is FunctionC.");
 }
 
+Console.WriteLine();
 FunctionA();
 
-Console.WriteLine();
 
 // En funktion kan ta 0, 1 eller flera inparametrar.
 // Parmetrar skrivs kommaseparerade i parantesen efter funktionsnamnet.
@@ -105,8 +105,89 @@ Console.WriteLine(AddNumbers(3, 7));
 // Skriv sedan ut resultat på skärmen.
 // Ex. GetMultipleChars('A', 5);  => "AAAAA"
 
+Console.WriteLine();
+
+static string GetMultipleChar(char a, int count)
+{
+    // return new string(a, count);
+    string result = string.Empty;
+    for (int i = 0; i < count; i++)
+    {
+        result += a;
+    }
+
+    return result;
+}
+
+string resultat = GetMultipleChar('A', 5);
+Console.WriteLine(resultat);
+
 // Uppgift4: Skriv en funktion som tar två heltal 'multiple' och 'length'
 // och returnerar en int[] med längden 'length' där varje element är multiplar av 'multiple'
 // i tur och ording:
 // Ex. GetMultiples(3, 5); => int[5] { 3, 6, 9, 12, 15 }
 // Spara värdet som funktionen returnerar i en variabel, och skriv sedan ut alla värden på skärmen.
+
+static int[] Multiplicera(int multiple, int length)
+{
+    int[] intArray = new int[length];
+
+    for (int i = 0; i < length; i++)
+    {
+        intArray[i] = (i + 1) * multiple;
+    }
+
+    return intArray;
+}
+
+int[] myMultiples = Multiplicera(3, 5);
+
+foreach (var m in myMultiples)
+{
+    Console.WriteLine(m);
+}
+
+Console.WriteLine();
+
+
+// Keyword 'params' kan användas för att ta in ett okänt antal parametrar av samma datatyp.
+// Man kan bara ha en params, och den måste vara sista parametern
+static int AddMultipleNumbers(params int[] numbers)
+{
+    int result = 0;
+
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        result += numbers[i];
+    }
+
+    return result;
+}
+
+int[] myNumbers = new int[] { 1, 3, 7, 5 };
+
+Console.WriteLine(AddMultipleNumbers(1, 3, 7, 5, 10, 100));
+
+// Exempel på hur man kan använda string.Join() för att skriva ut alla element i en array.
+Console.WriteLine(string.Join(", ", myNumbers));
+
+Console.WriteLine();
+
+int count = 3;
+
+// Funktioner märkta med 'static' har inte åtkomst till objekt deklarerade utanför funktionen.
+// Tillsvidare använd static på alla era funktioner, så ni får in tänket att funktioner fungerar
+// isolerat/fristående från annan kod.
+
+//static void ExampleWithStatic()
+//{
+//    Console.WriteLine(count); // <- count kan inte läsas här.
+//}
+
+void ExampleWithoutStatic()
+{
+    Console.WriteLine(count);
+}
+
+// ExampleWithStatic();
+ExampleWithoutStatic();
