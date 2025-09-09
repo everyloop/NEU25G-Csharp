@@ -13,8 +13,10 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Sep 3][Sep3] | Variabler, Datatyper, If-satser, Loopar.                |
 | [Sep 5][Sep5] | Felsökning, Indexering, Arrayer, Strängar.                |
 | [Sep 8][Sep8] | Funktioner, Parametrar, Returvärde, Call Stack.               |
+| [Sep 10][Sep10] | Algoritmer, Problemlösning, Project Euler.               |
 
 [Sep1]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep1.md
 [Sep3]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep3.md
 [Sep5]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep5.md
 [Sep8]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep8.md
+[Sep10]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep10.md
