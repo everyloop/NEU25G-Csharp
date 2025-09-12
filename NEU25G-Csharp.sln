@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L008_Funktioner", "Code-alo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises", "Code-alongs\Exercises\Exercises.csproj", "{3043EE2A-47DA-43A6-8855-85ECBC65200D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L009_String_och_Char-metoder", "Code-alongs\L009_String_och_Char-metoder\L009_String_och_Char-metoder.csproj", "{7417B26C-035F-4E58-AFEC-B63A17DE1DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L010_Math_Random_Console", "Code-alongs\L010_Math_Random_Console\L010_Math_Random_Console.csproj", "{E695D3E4-1959-4D9B-AC66-D2B8AD76D1D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{3043EE2A-47DA-43A6-8855-85ECBC65200D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3043EE2A-47DA-43A6-8855-85ECBC65200D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3043EE2A-47DA-43A6-8855-85ECBC65200D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7417B26C-035F-4E58-AFEC-B63A17DE1DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7417B26C-035F-4E58-AFEC-B63A17DE1DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7417B26C-035F-4E58-AFEC-B63A17DE1DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7417B26C-035F-4E58-AFEC-B63A17DE1DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E695D3E4-1959-4D9B-AC66-D2B8AD76D1D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E695D3E4-1959-4D9B-AC66-D2B8AD76D1D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E695D3E4-1959-4D9B-AC66-D2B8AD76D1D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E695D3E4-1959-4D9B-AC66-D2B8AD76D1D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
