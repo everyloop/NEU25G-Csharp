@@ -21,4 +21,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Sep5]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep5.md
 [Sep8]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep8.md
 [Sep10]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep10.md
-[Sep12]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep10.md
+[Sep12]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep12.md
