@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L007_Strängar", "Code-alon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L008_Funktioner", "Code-alongs\L008_Funktioner\L008_Funktioner.csproj", "{9E9593B1-3005-4666-AFCB-48BD1F48A461}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises", "Code-alongs\Exercises\Exercises.csproj", "{3043EE2A-47DA-43A6-8855-85ECBC65200D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{9E9593B1-3005-4666-AFCB-48BD1F48A461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E9593B1-3005-4666-AFCB-48BD1F48A461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E9593B1-3005-4666-AFCB-48BD1F48A461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3043EE2A-47DA-43A6-8855-85ECBC65200D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3043EE2A-47DA-43A6-8855-85ECBC65200D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3043EE2A-47DA-43A6-8855-85ECBC65200D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3043EE2A-47DA-43A6-8855-85ECBC65200D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
