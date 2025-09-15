@@ -1,5 +1,8 @@
 # September 8
 
+**Code-along:**  
+[L008_Funktioner](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L008_Funktioner/Program.cs)
+
 ## Funktioner (och Metoder)
 
 Funktioner och Metoder är två snarlika begrepp, med skillnaden att Metoder är knutna till objekt och därför har en annan kontext.
