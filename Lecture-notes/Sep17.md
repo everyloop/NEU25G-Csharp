@@ -79,4 +79,7 @@ ASCII (American Standard Code for Information Interchange) och Unicode är tecke
 
 **Ökad minnesanvändning:** Eftersom den stöder så många tecken kräver Unicode mer lagringsutrymme per tecken jämfört med ASCII. 
 
+Unicode är bakåt-kompatibelt med ASCII. De första 128 tecknen i Unicode är samma som de som används i ASCII.
+
 ![Unicode](https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Images/Unicode.png)
+
