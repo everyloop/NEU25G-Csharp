@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L010_Math_Random_Console", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L011_Exception_handling", "Code-alongs\L011_Exception_handling\L011_Exception_handling.csproj", "{67C53C8F-397D-45EB-8713-D9C2B6134F38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L012_CharacterEncoding", "Code-alongs\L012_CharacterEncoding\L012_CharacterEncoding.csproj", "{350C6B1D-2A95-41A4-9CA5-8B4B71F706DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{67C53C8F-397D-45EB-8713-D9C2B6134F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67C53C8F-397D-45EB-8713-D9C2B6134F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67C53C8F-397D-45EB-8713-D9C2B6134F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{350C6B1D-2A95-41A4-9CA5-8B4B71F706DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{350C6B1D-2A95-41A4-9CA5-8B4B71F706DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{350C6B1D-2A95-41A4-9CA5-8B4B71F706DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{350C6B1D-2A95-41A4-9CA5-8B4B71F706DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
