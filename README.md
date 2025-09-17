@@ -16,6 +16,8 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Sep 10][Sep10] | Algoritmer, Problemlösning, Project Euler.               |
 | [Sep 12][Sep12] | Introduktion till vanligaste klasserna i .NET               |
 | [Sep 15][Sep15] | Exception handling.               |
+| [Sep 17][Sep17] | Binary, Hexadecimal, Enheter/Prefix, ASCII, Unicode.      |
+
 
 [Sep1]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep1.md
 [Sep3]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep3.md
@@ -24,3 +26,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Sep10]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep10.md
 [Sep12]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep12.md
 [Sep15]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep15.md
+[Sep17]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep17.md
