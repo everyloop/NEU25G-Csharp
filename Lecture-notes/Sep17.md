@@ -57,6 +57,26 @@ Klassiskt finns två sätt att representera bråktal: **fixed point** och **floa
 
 ## ASCII och Unicode
 
+ASCII (American Standard Code for Information Interchange) och Unicode är teckenkodningssystem. ASCII är en äldre, enklare standard som ursprungligen bara stödde engelska tecken, medan Unicode är en universell, modern standard som kan representera tecken från alla världens språk, inklusive symboler och emojis. Unicode är den bredare och mer flexibla standarden som används i dag för att hantera text på en global skala. 
+
+### ASCII
+**Begränsat antal tecken:** Stödde ursprungligen enbart upp till 128 tecken (7 bitar) för engelska alfabetsbokstäver, siffror och grundläggande skiljetecken, även om en utökad version på 256 tecken (8 bitar) också finns.
+
+**Historisk betydelse:** Användes för elektronisk kommunikation och tidiga datorsystem. 
+
+**Begränsad användning:** Kan inte representera tecken från andra språk än engelska, vilket är en stor nackdel i en globaliserad värld. 
+
 ![ASCII](https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Images/ASCII.png)
+
+### Unicode
+**Universell teckenkodning:** En global standard som är utformad för att representera alla tecken, symboler och emojis som används i alla språk. 
+
+**Stort teckenurval:** Omfattar hundratusentals tecken och fortsätter att utökas. 
+
+**Flexibla kodningsformat:** Använder olika enkodningar, som UTF-8, UTF-16 och UTF-32, för att representera dessa tecken. 
+
+**Modern standard:** Används i modern datorkommunikation och programspråk som Java och för webbdata för att garantera kompatibilitet över olika plattformar och språk. 
+
+**Ökad minnesanvändning:** Eftersom den stöder så många tecken kräver Unicode mer lagringsutrymme per tecken jämfört med ASCII. 
 
 ![Unicode](https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Images/Unicode.png)
