@@ -16,7 +16,7 @@
 //    }
 //}
 
-using (var writer = new StreamWriter("myFile.txt"))
+using (var writer = new StreamWriter("myFile.txt", append: true))
 {
     writer.WriteLine("Hello");
     writer.WriteLine("World");
