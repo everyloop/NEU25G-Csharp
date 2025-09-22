@@ -18,6 +18,7 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Sep 15][Sep15] | Exception handling.               |
 | [Sep 17][Sep17] | Binary, Hexadecimal, Enheter/Prefix, ASCII, Unicode.      |
 | [Sep 19][Sep19] | Filhantering. Läsa och skriva filer.      |
+| [Sep 22][Sep22] | Introduktion OOP: klasser och objekt.     |
 
 
 [Sep1]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep1.md
@@ -29,3 +30,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Sep15]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep15.md
 [Sep17]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep17.md
 [Sep19]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep19.md
+[Sep22]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep22.md
