@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L015_FileStream", "Code-alo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L016_OOP_Intro", "Code-alongs\L016_OOP_Intro\L016_OOP_Intro.csproj", "{E6651E1D-90B8-4B79-9995-B37E47CACCDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L017_Main_method_entry_point", "Code-alongs\L017_Main_method_entry_point\L017_Main_method_entry_point.csproj", "{763E7502-0C4B-438D-BEE8-CF979D01DB2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{E6651E1D-90B8-4B79-9995-B37E47CACCDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6651E1D-90B8-4B79-9995-B37E47CACCDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6651E1D-90B8-4B79-9995-B37E47CACCDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{763E7502-0C4B-438D-BEE8-CF979D01DB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{763E7502-0C4B-438D-BEE8-CF979D01DB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{763E7502-0C4B-438D-BEE8-CF979D01DB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{763E7502-0C4B-438D-BEE8-CF979D01DB2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
