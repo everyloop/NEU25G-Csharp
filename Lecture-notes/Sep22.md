@@ -27,4 +27,28 @@ Objektorienterad programmering (OOP) är ett sätt att strukturera program så a
 
 [Läs mer här!](https://medium.com/@estheremeka026/the-four-pillars-of-oop-in-c-6673b17244a7)
 
+## Klasser och objekt
+
+### Klass
+
+En **klass** är som en **ritning** eller en **mall**.
+
+Den beskriver hur ett visst slags objekt ska se ut och bete sig.
+
+Den innehåller:
+
+- **Fält/egenskaper** (data, t.ex. färg, hastighet).
+
+- **Metoder** (funktioner, t.ex. kör, bromsa).
+
+👉 Klassen i sig gör ingenting förrän du använder den för att skapa ett **objekt**.
+
+### Objekt
+
+Ett **objekt** är en **instans av en klass**.
+
+- Om klassen är ritningen, så är objektet det **färdiga huset** byggt från ritningen.
+
+- Du kan skapa flera objekt från samma klass – alla följer ritningen, men de kan ha olika värden.
+
 ![OOP](https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Images/OOP.png)
