@@ -1,5 +1,8 @@
 # September 22
 
+**Code-along:**  
+[L016_OOP_Intro](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L016_OOP_Intro/Program.cs)
+
 ## Object oriented programming (OOP)
 
 ### Grundidén
@@ -52,3 +55,46 @@ Ett **objekt** är en **instans av en klass**.
 - Du kan skapa flera objekt från samma klass – alla följer ritningen, men de kan ha olika värden.
 
 ![OOP](https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Images/OOP.png)
+
+## this
+
+I C# används keyword "this" för att referera till den instans av klass som har anropat en av klassens metoder.
+
+## null
+
+Keyword null används som en literal value för att indikera att en referens inte pekar på något faktiskt objekt.
+
+## Method overloading
+
+Flera metoder i en klass kan ha samma namn fast med olika (i antal eller typ) parametrar. Detta är en typ av polymorfism. (Poly = Många, Morph = Former). Med andra ord: Method overloading låter oss skapa flera olika former av samma metod. Vilken av implementationerna som faktiskt körs avgörs vid kompilering genom att kolla på vilka argument som skickas in vid anropet.
+
+## Static classes and members
+
+### Statisk metod
+
+- En statisk metod tillhör klassen i stället för ett objekt.
+
+- Du anropar den via klassen, inte via en instans (MyClass.MyMethod() i stället för myObj.MyMethod()).
+
+- Den kan bara nå statiska fält/medlemmar i klassen, inte instansdata (this finns inte).
+
+### Statisk klass
+
+- En klass som är markerad med static kan inte instansieras (du kan inte göra new på den).
+
+- Alla dess medlemmar måste vara static.
+
+- Används för hjälpmetoder eller utilities.
+
+[Läs mer här!](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/static-classes-and-static-class-members)
+
+## Top level statements
+
+Top level statements introducerades i C# 9. Innan dess behövde alla program alltid innehålla en explicit Main-metod som var appens entry point.
+
+[Läs mer här!](https://www.thomasclaudiushuber.com/2020/08/18/c-9-top-level-statements-or-should-i-say-hey-wheres-the-main-method/)
+
+Se även längre förklaring i kommentarerna i denna code-along:
+
+**Code-along:**  
+[L017_Main_method_entry_point](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L017_Main_method_entry_point/Program.cs)
