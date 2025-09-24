@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L016_OOP_Intro", "Code-alon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L017_Main_method_entry_point", "Code-alongs\L017_Main_method_entry_point\L017_Main_method_entry_point.csproj", "{763E7502-0C4B-438D-BEE8-CF979D01DB2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L018_Namespaces", "Code-alongs\L018_Namespaces\L018_Namespaces.csproj", "{990D4793-552A-4765-BA4B-96606B8E8BB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{763E7502-0C4B-438D-BEE8-CF979D01DB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{763E7502-0C4B-438D-BEE8-CF979D01DB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{763E7502-0C4B-438D-BEE8-CF979D01DB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990D4793-552A-4765-BA4B-96606B8E8BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990D4793-552A-4765-BA4B-96606B8E8BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990D4793-552A-4765-BA4B-96606B8E8BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990D4793-552A-4765-BA4B-96606B8E8BB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
