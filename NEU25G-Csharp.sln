@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L017_Main_method_entry_poin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L018_Namespaces", "Code-alongs\L018_Namespaces\L018_Namespaces.csproj", "{990D4793-552A-4765-BA4B-96606B8E8BB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L019_Konstruktor", "Code-alongs\L019_Konstruktor\L019_Konstruktor.csproj", "{0B41EFB1-37A5-4561-8662-8E8F48E61C0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L020_Properties", "Code-alongs\L020_Properties\L020_Properties.csproj", "{25A0231D-A6C4-4887-A7A6-32EBCD8EEDB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{990D4793-552A-4765-BA4B-96606B8E8BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{990D4793-552A-4765-BA4B-96606B8E8BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{990D4793-552A-4765-BA4B-96606B8E8BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B41EFB1-37A5-4561-8662-8E8F48E61C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B41EFB1-37A5-4561-8662-8E8F48E61C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B41EFB1-37A5-4561-8662-8E8F48E61C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B41EFB1-37A5-4561-8662-8E8F48E61C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25A0231D-A6C4-4887-A7A6-32EBCD8EEDB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25A0231D-A6C4-4887-A7A6-32EBCD8EEDB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25A0231D-A6C4-4887-A7A6-32EBCD8EEDB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25A0231D-A6C4-4887-A7A6-32EBCD8EEDB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
