@@ -7,3 +7,4 @@
 [Förberedelseövningar för labb 1](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/Förberedelseövningar_Labb1.md)  
 [Läs in metadata från bildfiler](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/MetaDataFrånFil.md)  
 [Klasser och objekt](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/BasicOOP.md)  
+[Properties](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/Properties.md)  
