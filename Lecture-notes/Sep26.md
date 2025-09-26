@@ -1,7 +1,7 @@
 # September 19
 
 **Lecture slide:**  
-[ValueAndReferenceTypes.pdf](https://github.com/everyloop/NET24-Csharp/blob/master/Resources/ValueAndReferenceTypes.pdf)
+[ValueAndReferenceTypes.pdf](https://github.com/everyloop/NEU25G-Csharp/blob/master/Resources/ValueAndReferenceTypes.pdf)
 
 ## Stack & Heap
 
