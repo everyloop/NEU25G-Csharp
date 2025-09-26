@@ -27,6 +27,8 @@ Pass-by-reference markeras med keyword "ref" eller "out" i C#, och innebär att 
 
 [Läs mer här!](https://www.c-sharpcorner.com/UploadFile/f1047f/story-of-pass-by-value-and-pass-by-reference-in-C-Sharp/)
 
+[Se även: Ref vs Out](https://medium.com/@nwonahr/understanding-the-ref-and-out-keywords-in-c-f23757684575)
+
 **Code-along:**  
 [L021_Pass_by_value_vs_Pass_by_reference](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L021_Pass_by_value_vs_Pass_by_reference/Program.cs)
 
