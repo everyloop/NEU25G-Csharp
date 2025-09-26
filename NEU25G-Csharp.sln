@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L020_Properties", "Code-alo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L021_Pass_by_value_vs_Pass_by_reference", "Code-alongs\L021_Pass_by_value_vs_Pass_by_reference\L021_Pass_by_value_vs_Pass_by_reference.csproj", "{01EED18A-2D32-41A8-BF41-5265CA4C43B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L022_Struct_&_Enum", "Code-alongs\L022_Struct_&_Enum\L022_Struct_&_Enum.csproj", "{6AF77828-C857-44A1-A882-A65CA3952505}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{01EED18A-2D32-41A8-BF41-5265CA4C43B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01EED18A-2D32-41A8-BF41-5265CA4C43B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01EED18A-2D32-41A8-BF41-5265CA4C43B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF77828-C857-44A1-A882-A65CA3952505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF77828-C857-44A1-A882-A65CA3952505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF77828-C857-44A1-A882-A65CA3952505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF77828-C857-44A1-A882-A65CA3952505}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
