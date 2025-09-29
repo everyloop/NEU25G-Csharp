@@ -36,13 +36,56 @@ Animal[] animals = new Animal[]
 
 foreach (var animal in animals)
 {
-    //animal.Walk();
+    animal.Walk();
+
+    // Cast kommer kasta en exception om animal inte kan castas till Cat.
+    // Cat myCat = (Cat)animal;
+    
+    // I detta fallet kommer dock myCat bli null istället för att en exception kastas.
+    Cat myCat = (animal as Cat);
+
+    // The null conditional operator (?.) allows you to perform member access or method calls on an object only if that object is not null.
+    // If the object is null, the operation returns null instead of throwing a null reference exception. 
+    myCat?.Mew();
+
+    // The null conditional operator kan alltså anvädas istället för:
+    //if (myCat is not null)
+    //{
+    //    myCat.Mew();
+    //}
+
+    // is-operatorn används för att se om animal är datatypen Cat
+    //if (animal is Cat)
+    //{
+    //    Cat myCat = (Cat)animal;
+    //    myCat.Mew();
+    //}
+
+    // is-operatorn kan även göra en auto-cast (myDog) om animal är Dog.
+    //if (animal is Dog myDog) myDog.Bark();
+
+
     //var myString = animal.ToString();
     //Console.WriteLine(myString);
-
-    animal.ScareAway(dog);
-    Console.WriteLine();
+    //animal.ScareAway(dog);
+    //Console.WriteLine();
 }
+
+Console.WriteLine();
+
+// Implicit konvertering
+int myInt = 100;
+long myLong = myInt;
+Console.WriteLine("Implicit konvertering: int => long");
+Console.WriteLine($"myInt = {myInt}");
+Console.WriteLine($"myLong = {myLong}");
+
+// Explicit konvertering (Cast)
+myLong = 10000000000;
+myInt = (int)myLong;
+Console.WriteLine("\nExplicit konvertering: long => int (här krävs en cast)");
+Console.WriteLine($"myLong = {myLong}");
+Console.WriteLine($"myInt = {myInt}");
 
 abstract class Animal
 {
