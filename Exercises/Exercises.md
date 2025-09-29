@@ -8,3 +8,4 @@
 [Läs in metadata från bildfiler](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/MetaDataFrånFil.md)  
 [Klasser och objekt](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/BasicOOP.md)  
 [Properties](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/Properties.md)  
+[Arv](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/Arv.md)  
