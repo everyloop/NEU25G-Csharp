@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L021_Pass_by_value_vs_Pass_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L022_Struct_&_Enum", "Code-alongs\L022_Struct_&_Enum\L022_Struct_&_Enum.csproj", "{6AF77828-C857-44A1-A882-A65CA3952505}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L023_Arv", "Code-alongs\L023_Arv\L023_Arv.csproj", "{2436B804-10B7-4970-9BBA-B81DB632FDE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{6AF77828-C857-44A1-A882-A65CA3952505}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6AF77828-C857-44A1-A882-A65CA3952505}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6AF77828-C857-44A1-A882-A65CA3952505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2436B804-10B7-4970-9BBA-B81DB632FDE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2436B804-10B7-4970-9BBA-B81DB632FDE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2436B804-10B7-4970-9BBA-B81DB632FDE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2436B804-10B7-4970-9BBA-B81DB632FDE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
