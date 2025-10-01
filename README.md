@@ -22,6 +22,8 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Sep 24][Sep24] | Namespaces, Konstruktor, Properties     |
 | [Sep 26][Sep26] | Value types och Reference types. Stack och Heap.    |
 | [Sep 29][Sep29] | Arv och polymorfism    |
+| [Okt 1][Okt1] | Arv och polymorfism    |
+
 
 
 [Sep1]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep1.md
@@ -37,3 +39,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Sep24]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep24.md
 [Sep26]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep26.md
 [Sep29]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep29.md
+[Okt1]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt1.md
