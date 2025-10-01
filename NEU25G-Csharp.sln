@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L023_Arv", "Code-alongs\L02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L024_Komposition", "Code-alongs\L024_Komposition\L024_Komposition.csproj", "{C21E79BD-4199-4514-8F6A-D4DDAA671CE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L025_Constructor_chaining", "Code-alongs\L025_Constructor_chaining\L025_Constructor_chaining.csproj", "{0C9C1BA1-00AD-41FF-8C54-885370D0E3C7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{C21E79BD-4199-4514-8F6A-D4DDAA671CE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C21E79BD-4199-4514-8F6A-D4DDAA671CE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C21E79BD-4199-4514-8F6A-D4DDAA671CE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C9C1BA1-00AD-41FF-8C54-885370D0E3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C9C1BA1-00AD-41FF-8C54-885370D0E3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C9C1BA1-00AD-41FF-8C54-885370D0E3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C9C1BA1-00AD-41FF-8C54-885370D0E3C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
