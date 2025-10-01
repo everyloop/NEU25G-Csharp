@@ -39,30 +39,30 @@
 // Varje gång man skrivit in ett ord så ska programmet skriva ut det ord man skrev 10 inmatningar tidigare.
 // Men om man inte skrivit in 10 ord än så kan den istället skriva just det: “Du har inte skrivit in 10 ord än.”
 
-string[] words = new string[10];
-int count = 0;
+//string[] words = new string[10];
+//int count = 0;
 
-while (true)
-{
-    Console.Write("Skriv något: ");
-    string input = Console.ReadLine();
-    words[count%10] = input;
+//while (true)
+//{
+//    Console.Write("Skriv något: ");
+//    string input = Console.ReadLine();
+//    words[count%10] = input;
 
-    if (count < 9)
-    {
-        Console.WriteLine("Du har inte skrivit 10 ord än.");
-    }
-    else if (count%10 == 9)
-    {
-        Console.WriteLine(words[0]);
-    }
-    else
-    {
-        Console.WriteLine(words[count%10 + 1]);
-    }
+//    if (count < 9)
+//    {
+//        Console.WriteLine("Du har inte skrivit 10 ord än.");
+//    }
+//    else if (count%10 == 9)
+//    {
+//        Console.WriteLine(words[0]);
+//    }
+//    else
+//    {
+//        Console.WriteLine(words[count%10 + 1]);
+//    }
 
-    count++;
-}
+//    count++;
+//}
 
 
 
@@ -96,7 +96,40 @@ while(true)
 */
 
 
+//Arv och polymorfism 1 - Skapa en klass för fordon
 
+//Skapa en enum Brand med 5 bilmärken, och en enum Color med 5 färger.
+//Skriv sedan en klass Vehicle som har publika properties Brand och Color.
+//Klassen ska ha en konstruktor som man kan använda för att sätta Brand och Color,
+//och en konstruktor som endast tar Brand och sätter en default färg.
+
+
+//Console.WriteLine((int)Brand.Toyota);
+//Console.WriteLine((Brand)3);
+
+var myVehicle = new Vehicle(Brand.Volvo, Color.White);
+
+class Vehicle
+{
+    public Brand Brand { get; set; }
+    public Color Color { get; set; }
+
+    public Vehicle(Brand brand)
+    {
+        Brand = brand;
+        Color = Color.Black;
+    }
+
+    public Vehicle(Brand brand, Color color)
+    {
+        Brand = brand;
+        Color = color;
+    }
+}
+
+enum Brand { Volvo, BMW, Toyota, Saab, Audi }
+
+enum Color { Black, White, Blue, Red, Green }
 
 
 
