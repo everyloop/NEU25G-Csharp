@@ -17,6 +17,8 @@ Swap(ref textA, ref textB);
 
 Console.WriteLine($"textA = {textA}, textB = {textB}");
 
+Console.WriteLine(AreAllElementsEqual(new char[] { '2', '2', '2', '2' }));
+
 static void Swap<T>(ref T a, ref T b)
 {
     T hold = a;
@@ -24,6 +26,17 @@ static void Swap<T>(ref T a, ref T b)
     b = hold;
 }
 
+static bool AreAllElementsEqual<T>(T[] array)
+{
+    if (array.Length == 0) return true;
+
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (!Object.Equals(array[i], array[0])) return false;
+    }
+
+    return true;
+}
 
 
 //var birdCage = new Cage<Bird>();
@@ -34,13 +47,16 @@ static void Swap<T>(ref T a, ref T b)
 
 //Console.WriteLine();
 
+//var cage = new DoubleCage<Bird, Cat>();
 
 //class Bird { }
 //class Cat { }
 
-//class Cage<T>()
+//class DoubleCage<T1, T2>()
 //{
-//    public T Inhabitant { get; set; }
+//    public T1 FirstInhabitant { get; set; }
+//    public T2 SecondInhabitant { get; set; }
+
 //}
 
 
