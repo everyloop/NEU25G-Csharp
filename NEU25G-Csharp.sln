@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L027_List", "Code-alongs\L0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L028_Dictionary", "Code-alongs\L028_Dictionary\L028_Dictionary.csproj", "{3CFC3164-0D2C-4D0D-8E0C-C2C13C8A99AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L029_Delegates", "Code-alongs\L029_Delegates\L029_Delegates.csproj", "{3F4013EC-CAC2-4473-85C5-4E502F35051E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{3CFC3164-0D2C-4D0D-8E0C-C2C13C8A99AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CFC3164-0D2C-4D0D-8E0C-C2C13C8A99AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CFC3164-0D2C-4D0D-8E0C-C2C13C8A99AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4013EC-CAC2-4473-85C5-4E502F35051E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4013EC-CAC2-4473-85C5-4E502F35051E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4013EC-CAC2-4473-85C5-4E502F35051E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4013EC-CAC2-4473-85C5-4E502F35051E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
