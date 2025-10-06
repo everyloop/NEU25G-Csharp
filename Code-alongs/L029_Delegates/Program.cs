@@ -30,7 +30,7 @@ Console.WriteLine("\nProcessArray(strings, CountChars); =>");
 ProcessArray(strings, CountChars);
 
 Console.WriteLine();
-static void ProcessArray(string[] strings, MyDelegate myDelegate)
+static void ProcessArray(string[] strings, Func<string, int> myDelegate)
 {
     foreach (var item in strings)
     {
@@ -57,7 +57,7 @@ MyOtherDelegate funcDelegate = FuncC;
 funcDelegate += FuncB;
 funcDelegate += FuncA;
 funcDelegate += FuncB;
-funcDelegate = FuncB;
+funcDelegate += FuncB;
 funcDelegate += FuncC;
 
 funcDelegate.Invoke("Hello");
