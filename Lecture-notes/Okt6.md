@@ -34,3 +34,14 @@ Event gör det möjligt för en klass eller ett objekt att meddela andra klasser
 
 **Code-along:**  
 [L032_Events](https://github.com/everyloop/NEU25G-Csharp/tree/master/Code-alongs/L032_Events)
+
+## Extension methods
+
+Med extension methods kan du "lägga till" metoder i befintliga typer utan att skapa en ny härledd typ, kompilera om eller på annat sätt ändra den ursprungliga typen. 
+
+Extension methods är statiska metoder, men de anropas som om de vore instansmetoder för den utökade typen.
+
+[Läs mer här!](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)
+
+**Code-along:**  
+[L030_Extension_methods](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L030_Extension_methods/Program.cs)
