@@ -43,5 +43,8 @@ Extension methods är statiska metoder, men de anropas som om de vore instansmet
 
 [Läs mer här!](https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/extension-methods)
 
+I vår code along har vi lagt koden för extensions i ett bibliotek (L031), och använder den i L030.
+
 **Code-along:**  
-[L030_Extension_methods](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L030_Extension_methods/Program.cs)
+[L030_Extension_methods](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L030_Extension_methods/Program.cs)  
+[L031_Library](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L031_Library/StringExtensions.cs)  
