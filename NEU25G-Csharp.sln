@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L034_Anonymous_types", "Cod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L035_Interface", "Code-alongs\L035_Interface\L035_Interface.csproj", "{962316F5-FED4-4A5A-9E07-F088CDF7D1AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L036_LINQ", "Code-alongs\L036_LINQ\L036_LINQ.csproj", "{C22E9DCD-9608-4F36-9DB3-0C8E135D2D90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{962316F5-FED4-4A5A-9E07-F088CDF7D1AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{962316F5-FED4-4A5A-9E07-F088CDF7D1AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{962316F5-FED4-4A5A-9E07-F088CDF7D1AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C22E9DCD-9608-4F36-9DB3-0C8E135D2D90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C22E9DCD-9608-4F36-9DB3-0C8E135D2D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C22E9DCD-9608-4F36-9DB3-0C8E135D2D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C22E9DCD-9608-4F36-9DB3-0C8E135D2D90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
