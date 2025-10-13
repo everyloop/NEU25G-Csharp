@@ -25,11 +25,11 @@ Console.WriteLine(string.Join('\n', objectList));
 
 var stringList = objectList.OfType<string>().ToList();
 
-Console.WriteLine("\n*** OfType - Filters the elements based on a specified type - E.g. OfType<string> ***");
+Console.WriteLine("\n\n*** OfType - Filters the elements based on a specified type - E.g. OfType<string> ***");
 Console.WriteLine("\nstringList:");
 Console.WriteLine(string.Join('\n', stringList));
 
-Console.WriteLine("\n*** Any, All ***\n");
+Console.WriteLine("\n\n*** Any, All ***\n");
 
 Console.WriteLine($"stringList.Any() => {stringList.Any()}");
 Console.WriteLine($"stringList.Any(s => s.Length == 4) => {stringList.Any(s => s.Length == 4)}");
@@ -44,7 +44,7 @@ Console.WriteLine($"stringList.All(s => s.StartsWith('B')) => {stringList.All(s 
 // if (enemies.Any(e => e.HP < 5) ...
 
 
-Console.WriteLine("\n*** Where ***\n");
+Console.WriteLine("\n\n*** Where - Filters a sequence of values based on a predicate ***\n");
 
 var filteredStrings = stringList.Where(s => s.Length <= 12).ToList();
 
@@ -56,9 +56,8 @@ Console.WriteLine(string.Join('\n', filteredStrings));
 //    Console.WriteLine(enemy.Name);
 //}
 
-Console.WriteLine();
 
-Console.WriteLine("\n*** Select ***\n");
+Console.WriteLine("\n\n*** Select - Projects each element of a sequence into a new form ***\n");
 
 var people = new[]
 {
@@ -82,9 +81,14 @@ var people2 = people
     .Where(p => p.FirstNameLength == 4)
     .ToList();
 
-Console.WriteLine();
 
-Console.WriteLine("\n*** OrderBy ***\n");
+foreach (var person in people2)
+{
+    Console.WriteLine(person);
+}
+
+
+Console.WriteLine("\n\n*** OrderBy ***\n");
 
 Console.WriteLine("people.OrderBy(p => p.Age) =>");
 foreach (var p in people.OrderBy(p => p.Age))
@@ -99,11 +103,10 @@ foreach (var p in people.OrderByDescending(p => p.FirstName))
 }
 
 
-var querySyntax = (from p in people where p.Age > 30 select p.Age).ToList();
+Console.WriteLine("\n\n*** Deferred execution ***\n");
 
-var methodSyntax = people.Where(p => p.Age > 30).Select(p => p.Age).ToList();
-
-Console.WriteLine();
+var querySyntax = (from p in people where p.Age > 30 select p.Age);
+var methodSyntax = people.Where(p => p.Age > 30).Select(p => p.Age);
 
 foreach (var age in querySyntax)
 {
@@ -118,6 +121,11 @@ foreach (var age in querySyntax)
     Console.WriteLine(age);
 }
 
+Console.WriteLine("\n\n*** A few more LINQ methods ***\n");
+
+Console.WriteLine($"people.FirstOrDefault(p => p.Age == 21) => {people.FirstOrDefault(p => p.Age == 21)}");
+Console.WriteLine($"people.LastOrDefault(p => p.Age == 21) => {people.LastOrDefault(p => p.Age == 21)}");
+Console.WriteLine($"people.Count(p => p.Age == 21) => {people.Count(p => p.Age == 21)}");
 
 
 
