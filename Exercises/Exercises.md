@@ -10,3 +10,4 @@
 [Properties](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/Properties.md)  
 [Arv](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/Arv.md)  
 [Delegat och lambda](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/Delegat.md)  
+[LINQ](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/LINQ.md)  
