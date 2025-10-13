@@ -1,5 +1,7 @@
 ﻿
 
+using System.Collections;
+
 var objectList = new List<object>();
 
 objectList.Add("Hello world!");
@@ -68,7 +70,7 @@ var people = new[]
     new { FirstName = "Sven", LastName = "Palm", Age = 21 },
     new { FirstName = "Fia", LastName = "Kvist", Age = 28 },
     new { FirstName = "Camilla", LastName = "Alm", Age = 37 },
-};
+}.ToList();
 
 var people2 = people
     .Where(p => p.Age < 30)
@@ -81,6 +83,42 @@ var people2 = people
     .ToList();
 
 Console.WriteLine();
+
+Console.WriteLine("\n*** OrderBy ***\n");
+
+Console.WriteLine("people.OrderBy(p => p.Age) =>");
+foreach (var p in people.OrderBy(p => p.Age))
+{
+    Console.WriteLine(p);
+}
+
+Console.WriteLine("\npeople.OrderByDescending(p => p.FirstName) =>");
+foreach (var p in people.OrderByDescending(p => p.FirstName))
+{
+    Console.WriteLine(p);
+}
+
+
+var querySyntax = (from p in people where p.Age > 30 select p.Age).ToList();
+
+var methodSyntax = people.Where(p => p.Age > 30).Select(p => p.Age).ToList();
+
+Console.WriteLine();
+
+foreach (var age in querySyntax)
+{
+    Console.WriteLine(age);
+}
+
+Console.WriteLine();
+people.Add(new { FirstName = "Stefan", LastName = "Johansson", Age = 38 });
+
+foreach (var age in querySyntax)
+{
+    Console.WriteLine(age);
+}
+
+
 
 
 
