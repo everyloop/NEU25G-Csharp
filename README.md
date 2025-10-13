@@ -26,6 +26,7 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Okt 3][Okt3] | Generiska klasser och metoder    |
 | [Okt 6][Okt6] | Delegat, Event, Extension methods.    |
 | [Okt 8][Okt8] | Lambda expressions, Anonyma datatyper, Interface    |
+| [Okt 13][Okt13] | LINQ: Method syntax & query syntax. Yield return.    |
 
 
 [Sep1]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep1.md
@@ -45,3 +46,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Okt3]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt3.md
 [Okt6]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt6.md
 [Okt8]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt8.md
+[Okt13]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt13.md
