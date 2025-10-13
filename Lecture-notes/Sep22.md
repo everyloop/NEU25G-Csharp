@@ -1,5 +1,8 @@
 # September 22
 
+**Lecture slide:**  
+[OOP.pdf](https://github.com/everyloop/NEU25G-Csharp/blob/master/Resources/OOP.pdf)
+
 **Code-along:**  
 [L016_OOP_Intro](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L016_OOP_Intro/Program.cs)
 

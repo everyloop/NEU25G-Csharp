@@ -1,5 +1,8 @@
 # Oktober 8
 
+**Lecture slide:**  
+[Delegates.pdf](https://github.com/everyloop/NEU25G-Csharp/blob/master/Resources/Delegates.pdf)
+
 ## Lambda expressions
 
 **Code-along:**  
