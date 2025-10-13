@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L035_Interface", "Code-alon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L036_LINQ", "Code-alongs\L036_LINQ\L036_LINQ.csproj", "{C22E9DCD-9608-4F36-9DB3-0C8E135D2D90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L037_Yield_return", "Code-alongs\L037_Yield_return\L037_Yield_return.csproj", "{C674942E-2881-4148-8C76-580080612471}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{C22E9DCD-9608-4F36-9DB3-0C8E135D2D90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C22E9DCD-9608-4F36-9DB3-0C8E135D2D90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C22E9DCD-9608-4F36-9DB3-0C8E135D2D90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C674942E-2881-4148-8C76-580080612471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C674942E-2881-4148-8C76-580080612471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C674942E-2881-4148-8C76-580080612471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C674942E-2881-4148-8C76-580080612471}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
