@@ -79,6 +79,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L036_LINQ", "Code-alongs\L0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L037_Yield_return", "Code-alongs\L037_Yield_return\L037_Yield_return.csproj", "{C674942E-2881-4148-8C76-580080612471}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L038_PLINQ", "Code-alongs\L038_PLINQ\L038_PLINQ.csproj", "{254E1139-E0C3-4AA2-AB51-92CCB0CDC7AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L039_Tasks", "Code-alongs\L039_Tasks\L039_Tasks.csproj", "{0DF6D235-DE28-4ABB-9B5B-F3B0B71194FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -237,6 +241,14 @@ Global
 		{C674942E-2881-4148-8C76-580080612471}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C674942E-2881-4148-8C76-580080612471}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C674942E-2881-4148-8C76-580080612471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{254E1139-E0C3-4AA2-AB51-92CCB0CDC7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{254E1139-E0C3-4AA2-AB51-92CCB0CDC7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{254E1139-E0C3-4AA2-AB51-92CCB0CDC7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{254E1139-E0C3-4AA2-AB51-92CCB0CDC7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF6D235-DE28-4ABB-9B5B-F3B0B71194FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF6D235-DE28-4ABB-9B5B-F3B0B71194FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF6D235-DE28-4ABB-9B5B-F3B0B71194FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF6D235-DE28-4ABB-9B5B-F3B0B71194FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
