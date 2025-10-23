@@ -29,6 +29,7 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Okt 13][Okt13] | LINQ: Method syntax & query syntax. Yield return.    |
 | [Okt 15][Okt15] | UX-design    |
 | [Okt 20][Okt20] | Asynkron programmering, Multithreading, TPL, PLINQ, Task    |
+| [Okt 22][Okt22] | Async & Await. Thread safety.    |
 
 
 [Sep1]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep1.md
@@ -51,3 +52,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Okt13]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt13.md
 [Okt15]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt15.md
 [Okt20]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt20.md
+[Okt22]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt22.md
