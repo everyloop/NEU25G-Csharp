@@ -2,6 +2,7 @@
 
 **OBS!** Vi kollade bara lite snabbt på code behind, och kommer gå igenom det mer på måndag.
 Men om någon vill börja kolla även på detta så lägger jag ut övningsuppgifter redan nu.
+Men gör gärna XAML-uppgifterna först!
 
 ## 1. Klickräknare
 
