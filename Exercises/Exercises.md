@@ -11,3 +11,5 @@
 [Arv](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/Arv.md)  
 [Delegat och lambda](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/Delegat.md)  
 [LINQ](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/LINQ.md)  
+[WPF Kontroller](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/WPF_Kontroller.md)  
+[Dialogrutor](https://github.com/everyloop/NEU25G-Csharp/blob/master/Exercises/Dialogrutor.md)  
