@@ -1,0 +1,61 @@
+﻿<Window x:Class="L042_WPF_Intro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:L042_WPF_Intro"
+        mc:Ignorable="d"
+        FontSize="20"
+        d:FontSize="30"
+        d:Width="500" d:Height="500"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <!--<Button
+            x:Name="LeftButton"
+            HorizontalAlignment="Left" 
+            VerticalAlignment="Center"
+            Click="MyButton_Click"
+        >
+            Click me!
+        </Button>
+
+        <Button
+            x:Name="RightButton"
+            Content="Right button!"
+            HorizontalAlignment="Right" 
+            VerticalAlignment="Center"
+            Click="MyButton_Click"
+        />-->
+
+        <!--<Button
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Center"
+        >
+            <Button.Content>
+                <StackPanel Orientation="Horizontal">
+                    <Label>Hello</Label>
+                    <Image MaxWidth="100" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/C_Sharp_Logo_2023.svg/1200px-C_Sharp_Logo_2023.svg.png"></Image>
+                    <Label>World</Label>
+                </StackPanel>
+            </Button.Content>
+        </Button>-->
+
+
+    </Grid>
+</Window>
+    
+<!--
+
+<Element Attribute1="Value1" Attribute2="Value2">
+</Element>   <= Closing Element
+   
+<SelfClosingElement />
+    
+Attribute Syntax: <Button Content="Hello" />
+    
+Property element syntax: <Button.Content>Hello</Button.Content>
+    
+Content syntax: <Button>Hello</Button>
+    
+-->
