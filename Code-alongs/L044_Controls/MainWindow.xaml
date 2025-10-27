@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:L044_Controls"
         mc:Ignorable="d"
-        d:Height="400" d:Width="400" d:FontSize="20"
-        Title="MainWindow" Height="450" Width="800" FontSize="20">
+        d:Height="800" d:Width="400" d:FontSize="20"
+        Title="MainWindow" Height="450" Width="800">
     <Grid>
         <WrapPanel
             Orientation="Vertical"            
@@ -18,15 +18,16 @@
                 Margin="10 10 0 0"
             />
 
-                <!--TextChanged="textBox_TextChanged"-->
             <TextBox
                 x:Name="textBox"
-                Text="Fredrik"
+                Text=""
                 Margin="10 0 0 0"
+                TextChanged="textBox_TextChanged"
                 KeyDown="textBox_KeyDown"
             />
 
             <TextBox 
+                x:Name="multilineTextBox"
                 AcceptsReturn="True"
                 TextWrapping="NoWrap"
                 Width="200"
@@ -34,16 +35,82 @@
                 HorizontalScrollBarVisibility="Visible"
                 Margin="10 10 0 0" 
                 Height="100"
-                IsEnabled="False"
+                IsEnabled="True"
              />
 
             <Button
-                x:Name="button"
-                Content="Click here!"
+                x:Name="copyButton"
+                Content="Copy text!"
                 Margin="10 10 0 0"
                 IsEnabled="False"
                 Visibility="Visible"
+                Click="copyButton_Click"
             />
+
+            <CheckBox
+                x:Name="checkBox"
+                Margin="10 10 0 0"
+                Content="Hide button"
+                IsChecked="False"
+                Click="CheckBox_Click"
+            />
+
+            <Label
+                Content="Copy mode:"
+                Margin="10 10 0 0"
+            />
+            
+            <RadioButton
+                x:Name="radioButtonOverwrite"
+                IsChecked="True"
+                Content="Overwrite"
+                GroupName="CopyMode"
+                Margin="10 0 0 0"
+            />
+
+            <RadioButton
+                x:Name="radioButtonAppend"
+                Content="Append"
+                GroupName="CopyMode"
+                Margin="10 0 0 0"
+            />
+
+            <Label
+                Content="Is this app awesome?:"
+                Margin="10 10 0 0"
+            />
+            
+            <RadioButton
+                x:Name="radioButtonC"
+                Content="Yes"
+                GroupName="YesNo"
+                Margin="10 0 0 0"
+            />
+
+            <RadioButton
+                x:Name="radioButtonD"
+                Content="No"
+                GroupName="YesNo"
+                IsChecked="True"
+                Margin="10 0 0 0"
+            />
+
+            <ComboBox
+                x:Name="comboBox"
+                Margin="10 10 0 0"
+                SelectedIndex="0"
+                ToolTip="Select your language."
+                SelectionChanged="comboBox_SelectionChanged"
+            >
+                <ComboBoxItem Content="English"/>
+                <ComboBoxItem Content="Swedish"/>
+                <ComboBoxItem Content="Spanish"/>
+            </ComboBox>
+            <!--
+            Övning:
+            När man trycker på knappen kopiera texten från övre textbox och APPEND till den undre.
+            När den övre textbox är tom ska knappen vara disabled.
+            -->
         </WrapPanel>
     </Grid>
 </Window>
