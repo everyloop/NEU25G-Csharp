@@ -51,8 +51,6 @@ public partial class MainWindow : Window
         {
             multilineTextBox.Text = textBox.Text;
         }
-
-        comboBox.Items.Add(textBox.Text);
     }
 
     private void CheckBox_Click(object sender, RoutedEventArgs e)

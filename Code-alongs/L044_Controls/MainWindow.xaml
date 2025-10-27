@@ -102,9 +102,9 @@
                 ToolTip="Select your language."
                 SelectionChanged="comboBox_SelectionChanged"
             >
-                <ComboBoxItem Content="English"/>
+                <!--<ComboBoxItem Content="English"/>
                 <ComboBoxItem Content="Swedish"/>
-                <ComboBoxItem Content="Spanish"/>
+                <ComboBoxItem Content="Spanish"/>-->
             </ComboBox>
             <!--
             Övning:
