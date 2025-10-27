@@ -4,6 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:L043_Panels"
+        xmlns:controls="clr-namespace:L043_Panels.Controls"
         mc:Ignorable="d"
         d:Width="400" d:Height="400"
         MinHeight="200" MinWidth="300"
@@ -36,7 +37,8 @@
             <Button Content="4" DockPanel.Dock="Right"/>
             <Button Content="5" />-->
         </DockPanel>
-        
-        <Button Content="Canvas" Grid.Column="1" Grid.Row="1" />
+
+        <!--<controls:ExampleUserControl Grid.Column="1" Grid.Row="0" />-->
+        <controls:ExampleUserControl Grid.Column="1" Grid.Row="1" />
     </Grid>
 </Window>

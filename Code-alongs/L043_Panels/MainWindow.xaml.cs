@@ -60,7 +60,7 @@ namespace L043_Panels
             newButton.Click += DockPanelButton_Click;
 
             dockPanel.Children.Add(newButton);
-            DockPanel.SetDock(newButton, dockLocation);
+            DockPanel.SetDock(newButton, dockLocation);            
         }
     }
 }
