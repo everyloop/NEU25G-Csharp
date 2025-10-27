@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L042_WPF_Intro", "Code-alon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L043_Panels", "Code-alongs\L043_Panels\L043_Panels.csproj", "{9EEF09F0-E389-4908-808B-C13D34A81C70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L044_Controls", "Code-alongs\L044_Controls\L044_Controls.csproj", "{D707C8DC-13FE-43CA-B898-C2C097108816}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -273,6 +275,10 @@ Global
 		{9EEF09F0-E389-4908-808B-C13D34A81C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EEF09F0-E389-4908-808B-C13D34A81C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EEF09F0-E389-4908-808B-C13D34A81C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D707C8DC-13FE-43CA-B898-C2C097108816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D707C8DC-13FE-43CA-B898-C2C097108816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D707C8DC-13FE-43CA-B898-C2C097108816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D707C8DC-13FE-43CA-B898-C2C097108816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
