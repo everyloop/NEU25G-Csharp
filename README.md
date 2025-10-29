@@ -30,6 +30,9 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Okt 15][Okt15] | UX-design    |
 | [Okt 20][Okt20] | Asynkron programmering, Multithreading, TPL, PLINQ, Task    |
 | [Okt 22][Okt22] | Async & Await. Thread safety.    |
+| [Okt 24][Okt24] | Intro WPF & XAML                                      |
+| [Okt 27][Okt27] | WPF Paneler & Standardkontroller                  |
+| [Okt 29][Okt29] | MVVM, Data binding, DataContext, Labb3 Code-Along           |
 
 
 [Sep1]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep1.md
@@ -53,3 +56,6 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Okt15]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt15.md
 [Okt20]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt20.md
 [Okt22]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt22.md
+[Okt24]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt24.md
+[Okt27]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt27.md
+[Okt29]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt29.md
