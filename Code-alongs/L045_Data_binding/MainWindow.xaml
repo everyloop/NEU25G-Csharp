@@ -1,0 +1,35 @@
+﻿<Window x:Class="L045_Data_binding.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:L045_Data_binding"
+        mc:Ignorable="d"
+        d:Height="800" d:Width="400"
+        Title="MainWindow" Height="450" Width="800" FontSize="24"
+>
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0">
+            <!--<StackPanel.DataContext>
+                <local:Person FirstName="Johan" LastName="Karlsson" Age="25" />
+            </StackPanel.DataContext>-->
+            <TextBox x:Name="textBoxA" Margin="10 10 10 0" Text="{Binding FirstName, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"/>
+            <TextBox x:Name="textBoxB" Margin="10 10 10 0" Text="{Binding Path=LastName}"/>
+            <Button Content="Click me!" Margin="10 10 10 0" Click="Button_Click" />
+        </StackPanel>
+
+        <ListBox 
+            Grid.Row="1" 
+            Margin="10" 
+            ItemsSource="{Binding Path=Children}"
+            DisplayMemberPath="FirstName"
+        />
+
+    </Grid>
+
+</Window>
