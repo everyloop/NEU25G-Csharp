@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L044_Controls", "Code-along
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L045_Data_binding", "Code-alongs\L045_Data_binding\L045_Data_binding.csproj", "{559F3CA3-41AC-4AA5-AED6-34D5E9993864}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L046_Labb3_Code_Along", "Code-alongs\L046_Labb3_Code_Along\L046_Labb3_Code_Along.csproj", "{8A65134C-1C25-4682-BF99-1C55625AF53E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{559F3CA3-41AC-4AA5-AED6-34D5E9993864}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{559F3CA3-41AC-4AA5-AED6-34D5E9993864}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{559F3CA3-41AC-4AA5-AED6-34D5E9993864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A65134C-1C25-4682-BF99-1C55625AF53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A65134C-1C25-4682-BF99-1C55625AF53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A65134C-1C25-4682-BF99-1C55625AF53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A65134C-1C25-4682-BF99-1C55625AF53E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
