@@ -4,20 +4,19 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:L046_Labb3_Code_Along"
+        xmlns:views="clr-namespace:L046_Labb3_Code_Along.Views"
         mc:Ignorable="d"
         d:Height="800" d:Width="400"
         Title="MainWindow" Height="450" Width="800" FontSize="24">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="100"/>
+            <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
 
-        <StackPanel>
-            <TextBox Margin="10 10 10 0" Text="{Binding Name}" />
-            <Button Margin="10 10 10 0" Content="Update name!" Click="Button_Click" />
-        </StackPanel>
+        <views:MenuView Grid.Row="0" />
 
-        <ListBox Margin="10" Grid.Row="1" ItemsSource="{Binding Questions}" DisplayMemberPath="Query"/>
+        <views:PlayerView Grid.Row="1" />
+        <!--<views:ConfigurationView Grid.Row="1" />-->
     </Grid>
 </Window>
