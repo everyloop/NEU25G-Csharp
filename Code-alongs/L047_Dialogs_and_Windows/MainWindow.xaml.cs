@@ -77,4 +77,9 @@ public partial class MainWindow : Window
             File.WriteAllText(dialog.FileName, AddCharacterButton.Content.ToString());
         }
     }
+
+    private void AddUserDialogButton_Click(object sender, RoutedEventArgs e)
+    {
+
+    }
 }

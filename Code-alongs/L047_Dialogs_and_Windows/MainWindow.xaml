@@ -7,35 +7,51 @@
         mc:Ignorable="d"
         d:Height="800" d:Width="400" FontSize="24"
         Title="MainWindow" Height="450" Width="800">
-    <StackPanel Orientation="Vertical">
-        <Button 
-            Content="Show MessageBox"
-            Margin="10 10 10 0"
-            Click="ShowMessageButton_Click"
-        />
-        <Button 
-            x:Name="AddCharacterButton"
-            Content="Add character?"
-            Margin="10 10 10 0"
-            Click="AddCharacterButton_Click"
-        />
-        <Button 
-            x:Name="DisableButton"
-            Content="Disable!"
-            Margin="10 10 10 0"
-            Click="DisableButton_Click"
-        />
-        <Button 
-            x:Name="OpenFileDialogButton"
-            Content="Open file."
-            Margin="10 10 10 0"
-            Click="OpenFileDialogButton_Click"
-        />
-        <Button 
-            x:Name="SaveFileDialogButton"
-            Content="Save file."
-            Margin="10 10 10 0"
-            Click="SaveFileDialogButton_Click"
-        />
-    </StackPanel>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="280" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        
+        <StackPanel Orientation="Vertical">
+            <Button 
+                Content="Show MessageBox"
+                Margin="10 10 10 0"
+                Click="ShowMessageButton_Click"
+            />
+            <Button 
+                x:Name="AddCharacterButton"
+                Content="Add character?"
+                Margin="10 10 10 0"
+                Click="AddCharacterButton_Click"
+            />
+            <Button 
+                x:Name="DisableButton"
+                Content="Disable!"
+                Margin="10 10 10 0"
+                Click="DisableButton_Click"
+            />
+            <Button 
+                x:Name="OpenFileDialogButton"
+                Content="Open file."
+                Margin="10 10 10 0"
+                Click="OpenFileDialogButton_Click"
+            />
+            <Button 
+                x:Name="SaveFileDialogButton"
+                Content="Save file."
+                Margin="10 10 10 0"
+                Click="SaveFileDialogButton_Click"
+            />
+            <Button 
+                x:Name="AddUserDialogButton"
+                Content="Add new user"
+                Margin="10 10 10 0"
+                Click="AddUserDialogButton_Click"
+            />
+
+        </StackPanel>
+
+        <ListBox Grid.Row="1" Margin="10" />
+    </Grid>
 </Window>
