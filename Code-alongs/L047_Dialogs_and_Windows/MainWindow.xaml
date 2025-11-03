@@ -1,0 +1,41 @@
+﻿<Window x:Class="L047_Dialogs_and_Windows.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:L047_Dialogs_and_Windows"
+        mc:Ignorable="d"
+        d:Height="800" d:Width="400" FontSize="24"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel Orientation="Vertical">
+        <Button 
+            Content="Show MessageBox"
+            Margin="10 10 10 0"
+            Click="Button_Click"
+        />
+        <Button 
+            x:Name="AddCharacterButton"
+            Content="Add character?"
+            Margin="10 10 10 0"
+            Click="AddCharacterButton_Click"
+        />
+        <Button 
+            x:Name="DisableButton"
+            Content="Disable!"
+            Margin="10 10 10 0"
+            Click="DisableButton_Click"
+        />
+        <Button 
+            x:Name="OpenFileDialogButton"
+            Content="Open file."
+            Margin="10 10 10 0"
+            Click="OpenFileDialogButton_Click"
+        />
+        <Button 
+            x:Name="SaveFileDialogButton"
+            Content="Save file."
+            Margin="10 10 10 0"
+            Click="SaveFileDialogButton_Click"
+        />
+    </StackPanel>
+</Window>
