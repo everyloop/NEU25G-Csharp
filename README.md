@@ -33,6 +33,7 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 | [Okt 24][Okt24] | Intro WPF & XAML                                      |
 | [Okt 27][Okt27] | WPF Paneler & Standardkontroller                  |
 | [Okt 29][Okt29] | MVVM, Data binding, DataContext, Labb3 Code-Along           |
+| [Nov 3][Nov3] | Dialogrutor, Converters   |
 
 
 [Sep1]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Sep1.md
@@ -59,3 +60,4 @@ Här hittar du code-along projekt från lektioner, lektionsanteckningar, [ordlis
 [Okt24]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt24.md
 [Okt27]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt27.md
 [Okt29]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Okt29.md
+[Nov3]: https://github.com/everyloop/NEU25G-Csharp/blob/master/Lecture-notes/Nov3.md
