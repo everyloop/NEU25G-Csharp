@@ -1,4 +1,5 @@
 ﻿using Microsoft.Win32;
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Text;
 using System.Windows;
@@ -18,9 +19,12 @@ namespace L047_Dialogs_and_Windows;
 /// </summary>
 public partial class MainWindow : Window
 {
+    public ObservableCollection<User> Users { get; set; } = new ObservableCollection<User>();
     public MainWindow()
     {
         InitializeComponent();
+
+        DataContext = this;
     }
 
     private void ShowMessageButton_Click(object sender, RoutedEventArgs e)
@@ -80,6 +84,14 @@ public partial class MainWindow : Window
 
     private void AddUserDialogButton_Click(object sender, RoutedEventArgs e)
     {
+        var dialog = new AddUserDialog();
+
+        //dialog.FirstName = "Fredrik";
+
+        if (dialog.ShowDialog() == true)
+        {
+            Users.Add(new User() { FirstName = dialog.FirstName, LastName = dialog.LastName });
+        }
 
     }
 }

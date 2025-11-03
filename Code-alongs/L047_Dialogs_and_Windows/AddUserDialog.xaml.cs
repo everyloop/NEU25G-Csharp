@@ -19,9 +19,33 @@ namespace L047_Dialogs_and_Windows
     /// </summary>
     public partial class AddUserDialog : Window
     {
+        public string FirstName
+        {
+            get => firstNameTextBox.Text;
+            set => firstNameTextBox.Text = value;
+        }
+
+        public string LastName
+        {
+            get => lastNameTextBox.Text;
+            set => lastNameTextBox.Text = value;
+        }
+
         public AddUserDialog()
         {
             InitializeComponent();
+        }
+
+        private void CancelButton_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = false;
+            Close();
+        }
+
+        private void AddUserButton_Click(object sender, RoutedEventArgs e)
+        {
+            DialogResult = true;
+            Close();
         }
     }
 }

@@ -10,12 +10,12 @@
         Title="Add new user" Height="270" Width="250">
     <StackPanel Orientation="Vertical">
         <Label Margin="10 0" Content="First name:" />
-        <TextBox Margin="10 0" />
+        <TextBox x:Name="firstNameTextBox" Margin="10 0" />
         <Label Margin="10 0" Content="Last name:" />
-        <TextBox Margin="10 0" />
+        <TextBox x:Name="lastNameTextBox" Margin="10 0" />
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button Margin="10 20" Content="Cancel" />
-            <Button Margin="10 20" Content="Add user" />
+            <Button Margin="10 20" Content="Cancel" Click="CancelButton_Click" />
+            <Button Margin="10 20" Content="Add user" Click="AddUserButton_Click" />
         </StackPanel>
     </StackPanel>
 </Window>

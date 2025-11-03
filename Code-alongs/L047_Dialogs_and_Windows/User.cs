@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace L047_Dialogs_and_Windows
 {
-    class User
+    public class User
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
