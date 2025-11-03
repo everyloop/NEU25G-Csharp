@@ -1,0 +1,47 @@
+﻿<Window x:Class="L048_Converters.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:L048_Converters"
+        xmlns:converters="clr-namespace:L048_Converters.Converters"
+        mc:Ignorable="d"
+        d:Height="800" d:Width="400"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel.Resources>
+            <BooleanToVisibilityConverter x:Key="BoolToVisibility" />
+            <converters:DoubleToSolidColorBrushConverter x:Key="DoubleToColorConverter" />
+        </StackPanel.Resources>
+        <Button 
+            Content="{Binding ElementName=MySlider, Path=Value}" 
+            Margin="10 10 10 0"
+            Background="{
+                Binding ElementName=MySlider, 
+                Path=Value,
+                Converter={StaticResource DoubleToColorConverter}
+            }"
+            Width="{Binding ElementName=MySlider, Path=Value}"
+            Visibility="{
+                Binding ElementName=ShowButtonCheckBox, 
+                Path=IsChecked, 
+                Converter={StaticResource BoolToVisibility} 
+            }" 
+        />
+        <CheckBox 
+            x:Name="ShowButtonCheckBox"
+            Content="Show button" 
+            Margin="10 10 10 0"
+        />
+        <Slider 
+            x:Name="MySlider"
+            Margin="10 10 10 0"
+            Minimum="0"
+            Maximum="500"
+            TickPlacement="None"
+            Foreground="Black"
+            TickFrequency="1"
+            IsSnapToTickEnabled="True"
+        />
+    </StackPanel>
+</Window>

@@ -99,6 +99,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L046_Labb3_Code_Along", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L047_Dialogs_and_Windows", "Code-alongs\L047_Dialogs_and_Windows\L047_Dialogs_and_Windows.csproj", "{50CA0FB0-EE9A-43BA-A1DB-BA3B4C9AF2CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L048_Converters", "Code-alongs\L048_Converters\L048_Converters.csproj", "{D144EA70-C329-4B0A-AB7A-97F1B25A0972}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{50CA0FB0-EE9A-43BA-A1DB-BA3B4C9AF2CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50CA0FB0-EE9A-43BA-A1DB-BA3B4C9AF2CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50CA0FB0-EE9A-43BA-A1DB-BA3B4C9AF2CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D144EA70-C329-4B0A-AB7A-97F1B25A0972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D144EA70-C329-4B0A-AB7A-97F1B25A0972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D144EA70-C329-4B0A-AB7A-97F1B25A0972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D144EA70-C329-4B0A-AB7A-97F1B25A0972}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
