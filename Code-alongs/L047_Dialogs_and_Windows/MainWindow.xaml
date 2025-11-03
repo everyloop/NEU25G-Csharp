@@ -11,7 +11,7 @@
         <Button 
             Content="Show MessageBox"
             Margin="10 10 10 0"
-            Click="Button_Click"
+            Click="ShowMessageButton_Click"
         />
         <Button 
             x:Name="AddCharacterButton"

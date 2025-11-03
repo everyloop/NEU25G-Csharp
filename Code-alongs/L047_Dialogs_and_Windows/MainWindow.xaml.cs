@@ -23,7 +23,7 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
-    private void Button_Click(object sender, RoutedEventArgs e)
+    private void ShowMessageButton_Click(object sender, RoutedEventArgs e)
     {
         MessageBox.Show("This is a message!", "Message to user:");
     }
