@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Threading;
 
 namespace L046_Labb3_Code_Along.ViewModels
 {
@@ -19,6 +20,16 @@ namespace L046_Labb3_Code_Along.ViewModels
 
             SetPackNameCommand = new DelegateCommand(SetPackName, CanSetPackName);
             DemoText = string.Empty;
+
+            var timer = new DispatcherTimer();
+            timer.Interval = TimeSpan.FromSeconds(2.5);
+            timer.Tick += Timer_Tick;
+            timer.Start();
+        }
+
+        private void Timer_Tick(object? sender, EventArgs e)
+        {
+            ActivePack.Name += "+";
         }
 
         private string _demoText;
