@@ -1,11 +1,12 @@
-﻿using System.Text.Json;
+﻿using System.Diagnostics;
+using System.Text.Json;
 using System.Text.Json.Serialization;
 
 //var people = new Person[]
 //{
-//    new Person( "Anders", "Andersson", 25, 182.0),
-//    new Person( "Kalle", "Svensson", 28, 175.0),
-//    new Person( "Maria", "Andersson", 24, 178.0),
+//    new Person( "Anders", "Andersson", 25),
+//    new Person( "Kalle", "Svensson", 28),
+//    new Person( "Maria", "Andersson", 24),
 //};
 
 ////people[0].BestFriend = people[1];
@@ -31,14 +32,28 @@ string json = File.ReadAllText("people.json");
 
 List<Person> people;
 
-people = JsonSerializer.Deserialize<List<Person>>(json);
+var options = new JsonSerializerOptions()
+{
+    UnmappedMemberHandling = JsonUnmappedMemberHandling.Skip
+};
 
-Console.WriteLine(json);
+people = JsonSerializer.Deserialize<List<Person>>(json, options);
 
+foreach (var person in people)
+{
+    Console.WriteLine(person.FirstName);
+}
+
+[DebuggerDisplay("{FirstName,nq} {LastName,nq}, Age = {Age}")]
 class Person
 {
+
     public string FirstName { get; set; }
+    
+    [JsonPropertyOrder(-1)]
     public string LastName { get; }
+
+    [JsonIgnore]
     public int Age { get; set; }
     //public Person BestFriend { get; set; }
 
