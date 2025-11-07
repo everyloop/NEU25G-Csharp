@@ -1,4 +1,4 @@
-# Oktober 10
+# November 7
 
 **Lecture slide:**  
 [CleanCode.pdf](https://github.com/everyloop/NEU25G-Csharp/blob/master/Resources/CleanCode.pdf)
