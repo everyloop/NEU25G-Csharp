@@ -103,6 +103,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L048_Converters", "Code-alo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L049_Json", "Code-alongs\L049_Json\L049_Json.csproj", "{440F13C0-F5EB-493A-B946-0A752DEEA383}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L050_SOLID", "Code-alongs\L050_SOLID\L050_SOLID.csproj", "{1E1FF6C2-CC61-4398-A04F-298EB195109E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +311,10 @@ Global
 		{440F13C0-F5EB-493A-B946-0A752DEEA383}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{440F13C0-F5EB-493A-B946-0A752DEEA383}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{440F13C0-F5EB-493A-B946-0A752DEEA383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E1FF6C2-CC61-4398-A04F-298EB195109E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E1FF6C2-CC61-4398-A04F-298EB195109E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E1FF6C2-CC61-4398-A04F-298EB195109E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E1FF6C2-CC61-4398-A04F-298EB195109E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
