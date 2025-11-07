@@ -21,3 +21,6 @@ De fem principerna samlades av Robert C. Martin i början på 2000-talet, och ak
 
 
 [Läs mer här!](https://www.freecodecamp.org/news/solid-principles-for-programming-and-software-design/)
+
+**Code-along:**  
+[L050_SOLID](https://github.com/everyloop/NEU25G-Csharp/blob/master/Code-alongs/L050_SOLID/Program.cs)
